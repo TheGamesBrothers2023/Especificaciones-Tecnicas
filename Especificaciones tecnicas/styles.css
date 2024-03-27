@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    font-size: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+#cotizar-link {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    text-decoration: none;
+    color: #4CAF50;
+    background-color: #fff;
+    padding: 8px 16px;
+    border: 2px solid #4CAF50;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#cotizar-link:hover {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+.marca {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.marca img {
+    margin-right: 20px;
+    margin-bottom: 10px;
+    width: 200px;
+    /* Ancho máximo de las imágenes */
+    height: auto;
+    /* Altura automática para mantener la proporción */
+}
+
+.especificaciones {
+    flex: 1;
+    margin-bottom: 10px;
+}
+
+.especificaciones h3 {
+    margin-top: 0;
+}
+
+.especificaciones p {
+    margin: 5px 0;
+}
+
+.boton-comprar {
+    text-align: center;
+}
+
+.boton-comprar a {
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    display: inline-block;
+}
+
+.boton-comprar a:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: green;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
